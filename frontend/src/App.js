@@ -12,13 +12,20 @@ function App() {
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
         <header>
-          <Navbar bg="primary" variant="primary">
+          <div className='announcement-bar' role='region' aria-label='Announcement'>
+            <a href='frontend\src\screens\SpecialOffers.js' className='announcement-bar_link'>
+              <p className='announcement-bar_message'>GET 50% OFF</p>
+            </a>
+          </div>
+          <Navbar bg="primary" variant="primary" className="first-navbar">
             <Container>
               <LinkContainer to="/">
                 <Navbar.Brand>Attire Avenue</Navbar.Brand>
               </LinkContainer>
             </Container>
           </Navbar>
+
+          
         </header>
         <main>
           <Container>

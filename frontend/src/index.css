@@ -7,8 +7,55 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.site-container{
+.site-container {
   min-height: 100vh;
+}
+
+.announcement-bar {
+  background-color: #414746;
+  z-index: 10;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid transparent;
+  padding: 2px;
+}
+
+.announcement-bar_link {
+  display: block;
+}
+
+a,
+button,
+[role='button'],
+input,
+label,
+select,
+.disclosure__toggle,
+textarea {
+  touch-action: manipulation;
+}
+
+a {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+.announcement-bar_message {
+  color: #ffffff;
+  padding-left: 55px;
+  padding-right: 55px;
+  display: block;
+  padding: 11px 22px;
+  font-size: calc(((16) / (var(--font-size-base))) * 1em);
+  font-weight: var(--font-weight-header);
+}
+
+.first-navbar {
+  height: 90px; /* Adjust the height as needed */
 }
 
 main {
