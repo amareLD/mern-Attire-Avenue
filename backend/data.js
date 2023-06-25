@@ -13,13 +13,12 @@ const data = {
       description: 'high quality shirt',
     },
     {
-      
       name: 'Adidas Fit Shirt',
       slug: 'adidas-fit-shirt',
       category: 'Shirts',
       image: '/images/p2.jpg',
       price: 250,
-      countInStock: 20,
+      countInStock: 0,
       brand: 'Adidas',
       rating: 4.0,
       numReviews: 10,
